@@ -4,4 +4,32 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+}
+
+.top_nav_bar {
+  display: none;
+}
+
+body {
+  background-color: #e5e5e5;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h6 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.person_typing_artwork {
+  display: none;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 64px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

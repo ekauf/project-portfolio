@@ -3,3 +3,34 @@
 @use "body";
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+
+
+.top_nav_bar {
+    display: none;
+}
+
+body {
+    background-color: #e5e5e5;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+h6 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.person_typing_artwork {
+    display: none;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 64px;
+    text-align: center;
+}
