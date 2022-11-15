@@ -56,7 +56,37 @@ header {
   font-weight: 600;
   font-size: 40px;
   text-align: center;
-  padding: 150px 50px 60px 20px;
+  padding: 150px 50px 30px 50px;
+}
+
+.tech_skills_paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  padding: 5px 40px 50px 40px;
+}
+
+.icon_grid {
+  display: grid;
+  grid-template-rows: 150px 150px 150px;
+  grid-template-columns: 150px 150px 150px;
+}
+
+.icon_grid_icon {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 20%;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+figcaption {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
 }
 
 .tech_skills_paragraph {
