@@ -6,9 +6,17 @@
   font-family: "Inter", sans-serif;
 }
 
+nav {
+  display: none;
+}
+
+.person_typing_artwork {
+  display: none;
+}
+
 body {
-  display: flex;
-  flex: wrap;
+  background-color: #e5e5e5;
+  width: 100%;
 }
 
 header {
@@ -18,8 +26,6 @@ header {
 .welcome_name {
   font-weight: 500;
   font-size: 24px;
-  padding-top: 28px;
-  padding-left: 60px;
 }
 
 .title_location {
@@ -151,15 +157,50 @@ footer {
   text-align: center;
 }
 
-.top_nav_bar {
-  display: none;
-}
-
-.person_typing_artwork {
-  display: none;
-}
-
-body {
-  background-color: #e5e5e5;
-  width: 100%;
+@media screen and (min-width: 1048px) {
+  body {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  nav {
+    display: unset;
+  }
+  .nav_bar_buttons {
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+    padding: 1px 1px 1px 1px;
+    text-align: center;
+  }
+  .home_button {
+    margin: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    background-color: #e5e5e5;
+  }
+  .about_button {
+    margin: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    background-color: #e5e5e5;
+  }
+  .projects_button {
+    margin: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    background-color: #e5e5e5;
+  }
+  .get_in_touch_button {
+    margin: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #e5e5e5;
+  }
+  .person_typing_artwork {
+    display: unset;
+  }
 }/*# sourceMappingURL=style.css.map */
