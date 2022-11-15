@@ -89,6 +89,13 @@ figcaption {
   padding: 10px;
 }
 
+.my_projects_title {
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  padding: 75px 50px 50px 50px;
+}
+
 .tech_skills_paragraph {
   font-weight: 400;
   font-size: 16px;
