@@ -217,8 +217,23 @@ footer {
   //     font-weight: 700;
   //     font-size: 250px;
   //   }
-
   .person_typing_artwork {
     display: unset;
+  }
+
+  //   .icon_grid {
+  //     display: grid;
+  //     grid-template-rows: 1fr;
+  //     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  //   }
+  //   .icon_grid_icon {
+  //     display: flex;
+  //     flex-wrap: wrap;
+  //   }
+
+  .icon_grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 }

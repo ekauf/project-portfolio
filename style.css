@@ -203,4 +203,9 @@ footer {
   .person_typing_artwork {
     display: unset;
   }
+  .icon_grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=style.css.map */
