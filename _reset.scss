@@ -104,10 +104,6 @@ figcaption {
   width: 100%;
 }
 
-// .card__text-content {
-
-//     }
-
 .card__heading {
   font-weight: 600;
   font-size: 40px;
@@ -153,3 +149,10 @@ footer {
   color: white;
   text-align: center;
 }
+
+// @media screen and (min-width: 768px) {
+//   body {
+//     display: flex;
+//     flex-wrap: wrap;
+//   }
+// }
