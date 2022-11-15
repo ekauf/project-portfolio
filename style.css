@@ -96,6 +96,40 @@ figcaption {
   padding: 75px 50px 50px 50px;
 }
 
+.card {
+  width: 100%;
+  padding: 25px 120px 25px 120px;
+}
+
+.card__image {
+  width: 100%;
+}
+
+.card__heading {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.card__paragraph {
+  line-height: 30px;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+.card__button {
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  border-color: black;
+}
+
+.card__button--secondary {
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  border-color: black;
+}
+
 footer {
   background-color: black;
   width: 100%;
@@ -114,18 +148,6 @@ footer {
 
 .footer_email {
   color: white;
-  text-align: center;
-}
-
-.tech_skills_paragraph {
-  font-weight: 400;
-  font-size: 16px;
-  text-align: center;
-}
-
-figcaption {
-  font-weight: 500;
-  font-size: 16px;
   text-align: center;
 }
 
