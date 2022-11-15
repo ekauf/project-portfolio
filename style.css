@@ -52,6 +52,13 @@ header {
   padding: 20px 20px 20px 20px;
 }
 
+.tech_skill_title {
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  padding: 150px 50px 60px 20px;
+}
+
 .tech_skills_paragraph {
   font-weight: 400;
   font-size: 16px;
